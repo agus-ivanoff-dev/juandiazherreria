@@ -1,0 +1,181 @@
+/* 
+font-family: 'Montserrat', sans-serif;
+font-family: 'Open Sans', sans-serif; 
+*/
+
+
+
+
+/************************* RESPONSIVE********************************/
+@media screen and  (max-width:767px){
+    .navbar-brand{
+        padding: 40px;
+         /* display: none;  */
+    }
+}
+
+
+
+
+
+
+/************************* ESTILOS GENERALES ********************************/
+
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.title{
+    margin-top: 30px;
+    font-size:2.8rem;
+    padding: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+
+.text{
+    margin-top: 10px;
+    font-family: 'Open Sans', sans-serif; 
+
+
+}
+
+.dark-section{
+    background-color: black;
+    color: white;
+}
+
+.white-section{
+    color: black;
+    background-color: white;
+
+}
+
+
+/************************* BARRA DE NAVEGACIÓN ********************************/
+
+.navbar{
+    background-color: #f5f6f7;
+    border-bottom: 1px solid #1f1919;
+    margin-bottom: 30px;
+}
+
+.navbar-collapse{
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+/************************* HOME ********************************/
+
+.home-title{
+    margin-top: 120px;
+    font-size:3rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+
+.home-text{
+    font-size: .9rem;
+    margin-top: 40px;
+    font-family: 'Open Sans', sans-serif; 
+    color: gray;
+    font-weight: bold;
+
+
+}
+
+.home span{
+    color: gray;
+}
+
+
+.home .container button{
+    padding:12px;
+    margin:20px 0px 40px 20px;
+    border-radius: 15px;
+    width: 200px;
+}
+
+.home .container img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    margin-left: -10px;
+}
+
+
+
+/************************* NOSOTROS ********************************/
+
+.nosotros{
+    margin: 20px 0px 40px 0px;
+    padding: 40px;
+}
+
+
+.nosotros h3{
+   margin: 20px 0px 50px 0px;
+   text-decoration:underline;
+}
+
+.nosotros i{
+    border: 1px solid white;
+    border-radius: 50%;
+    padding: 20px;
+    font-size: 1.6rem;
+    transform: all 0.9s ease-in;
+}
+
+@media screen and () {
+    
+}
+
+.nosotros i:hover{
+    color: rgb(209, 218, 47);
+    transform: all 0.9s ease-in;
+}
+
+.nosotros p{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: .8rem;
+}
+
+
+/************************* SERVICIOS ********************************/
+
+.servicios .card{
+    border-radius: 10px;
+    margin: 20px;
+}
+
+.servicios .card button{
+    margin: 20px auto;
+    width:70%;
+    
+}
+
+
+/************************* TRABAJO ********************************/
+
+.trabajo h2{
+
+}
+
+.trabajo h3{
+    margin-top: 50px;
+
+}
+.trabajo .container  {
+    width: 80%;
+}
+
+.trabajo p{
+    margin-top: 30px;
+}
+
