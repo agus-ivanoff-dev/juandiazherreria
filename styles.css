@@ -9,8 +9,6 @@ font-family: 'Open Sans', sans-serif;
 /************************* RESPONSIVE********************************/
 @media  (max-width:600px){
     .navbar img{
-        padding-left: 140px;
-
     }
     }
 
@@ -227,7 +225,6 @@ section{
  }
 
  svg {
-   width: 100px;
    filter: drop-shadow(0 1px 4px rgba(0,0,0,.4));
 }
 
