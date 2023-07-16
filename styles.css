@@ -12,6 +12,11 @@ font-family: 'Open Sans', sans-serif;
     }
     }
 
+    .google-maps iframe{
+        width: 300px;
+        height: 350px;
+    }
+
 }
 
 
