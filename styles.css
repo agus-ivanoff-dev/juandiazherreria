@@ -53,13 +53,7 @@ section{
 
 }
 
-.anchor:before {
-    display: block;
-    content: " ";
-    margin-top: -5px;
-    height: 120px;
-    visibility: hidden;
-}
+
 
 
 /************************* BARRA DE NAVEGACIÓN ********************************/
@@ -216,6 +210,21 @@ section{
     width: 50%;
 }
 
+
+/*          GOOGLE MAPS         */
+.google-maps iframe{
+    padding: 5px;
+    border: .5px solid rgba(0, 0, 0, 0.313);
+    box-shadow: 0 0 10px 5px rgba(28, 25, 25, 0.3);
+    border-radius: 10px;
+    width: 600px;
+    height: 350px;
+}
+.google-maps{
+}
+
+
+/*          WIDGET WHATSAPP*/
 #whatsapp {
     position: fixed;
     bottom: 20px;
@@ -235,6 +244,7 @@ circle {
     fill: #fff;
  }
 
+/************************* FOOTER ********************************/
 
  footer{
     margin-top: 20px;
