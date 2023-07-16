@@ -7,12 +7,12 @@ font-family: 'Open Sans', sans-serif;
 
 
 /************************* RESPONSIVE********************************/
-@media  (max-width:600px){
-    .navbar img{
-    }
+@media  (max-width:576){
+    .home-title{
+        margin-top: -210px;
+        }
     }
 
-}
 
 
 
@@ -194,10 +194,9 @@ section{
     margin-top: 30px;
 }
 
-.carrusel{border:11px solid pink;
-    width: auto;
-    height: auto;
-    display: inline-block;
+.carrusel{
+    padding: 50px;
+    overflow: hidden;
 
     }
     
@@ -212,7 +211,8 @@ section{
 
 }
 
-.contacto h3{
+.contacto p{
+    margin-top: 60px;
 
 }
 
@@ -221,16 +221,18 @@ section{
 }
 
 .contact-icons{
-    margin:30px auto 30px auto;
+    margin:60px auto 30px auto;
     width: 50%;
 }
 
 
 /*          GOOGLE MAPS         */
 .google-maps iframe{
+    margin-top: 70px;
+    margin-bottom: 90px;
     padding: 5px;
-    border: .5px solid rgba(0, 0, 0, 0.313);
-    box-shadow: 0 0 10px 5px rgba(28, 25, 25, 0.3);
+    border: 2px solid rgba(0, 0, 0, 0.313);
+    box-shadow: 0 0 20px 5px rgba(28, 25, 25, 0.3);
     border-radius: 10px;
  
 }
