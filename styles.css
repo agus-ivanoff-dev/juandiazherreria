@@ -73,6 +73,9 @@ section{
     margin-bottom: 30px;
     height: 100px;
 }
+.navbar li{
+    background-color: white;
+}
 
 .navbar-collapse{
     align-items: center;
