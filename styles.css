@@ -194,11 +194,14 @@ section{
     margin-top: 30px;
 }
 
-.trabajo .carousel{
-    width: 600px;
-    height: 500px;
+.carrusel{border:11px solid pink;
+    width: auto;
+    height: auto;
+    display: inline-block;
 
-}
+    }
+    
+
 
 
 /************************* CONTACTO ********************************/
