@@ -7,13 +7,14 @@ font-family: 'Open Sans', sans-serif;
 
 
 /************************* RESPONSIVE********************************/
-@media screen and  (max-width:767px){
-    .navbar-brand{
-        padding: 40px;
-         /* display: none;  */
-    }
-}
+@media  (max-width:600px){
+    .navbar img{
+        padding-left: 140px;
 
+    }
+    }
+
+}
 
 
 
@@ -36,12 +37,12 @@ section{
     font-weight: 400;
 }
 
-.text{
+/* .text{
     margin-top: 10px;
     font-family: 'Open Sans', sans-serif; 
 
 
-}
+} */
 
 .dark-section{
     background-color: black;
@@ -128,10 +129,21 @@ section{
 }
 
 
-.nosotros h3{
+.nosotros h4{
+    padding: 30px;
+   font-style: italic;
    margin: 20px 0px 50px 0px;
    text-decoration:underline;
+   letter-spacing: 2px;
+   color: rgba(183, 177, 134, 0.899);
 }
+
+.nosotros p{
+    margin-top: 20px;
+    margin-bottom: 40px;
+    font-size: 1.2rem;
+}
+
 
 .nosotros i{
     border: 1px solid white;
@@ -141,20 +153,11 @@ section{
     transform: all 0.9s ease-in;
 }
 
-@media screen and () {
-    
-}
-
 .nosotros i:hover{
     color: rgb(209, 218, 47);
     transform: all 0.9s ease-in;
 }
 
-.nosotros p{
-    margin-top: 20px;
-    margin-bottom: 10px;
-    font-size: .8rem;
-}
 
 
 /************************* SERVICIOS ********************************/
@@ -229,4 +232,10 @@ circle {
  }
  path {
     fill: #fff;
+ }
+
+
+ footer{
+    margin-top: 20px;
+    
  }
