@@ -73,8 +73,9 @@ section{
     margin-bottom: 30px;
     height: 100px;
 }
-.navbar li{
+.navbar .collapse{
     background-color: white;
+    border-radius: 10px;
 }
 
 .navbar-collapse{
